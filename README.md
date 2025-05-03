@@ -6,7 +6,7 @@ A **Java-based desktop application** developed as part of the **Software Design 
 ---
 
 ## 👨‍💻 Team Members
-- M. Usman Waqar Khan  
+- Muhammad Usman Waqar Khan SP23-BSE-010 (🔹 Module 1: User & Role Management)
 - Usman Jamil  
 - Wihaj Tahir  
 - Hashir Habib  
