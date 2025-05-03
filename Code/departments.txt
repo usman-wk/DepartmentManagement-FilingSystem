@@ -1,0 +1,2 @@
+ID: 1, Name: Computer Science, Code: CS, HOD ID: 101
+ID: 2, Name: Electrical Engineering, Code: EE, HOD ID: 201
