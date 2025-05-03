@@ -1,5 +1,0 @@
-ID: 101, Name: Alice, Role: HOD, DeptID: null
-ID: 102, Name: Bob, Role: Student, DeptID: null
-ID: 103, Name: Charlie, Role: Student, DeptID: null
-ID: 201, Name: David, Role: HOD, DeptID: null
-ID: 202, Name: Eva, Role: Student, DeptID: null
