@@ -1,0 +1,65 @@
+Sure! Here's your cleaned-up and revised GitHub README **without the project structure section**:
+# 📚 Department & User Management System – Java Swing MVC
+
+A desktop-based application developed in Java using the **Swing GUI toolkit** and **MVC architecture**, designed to streamline department and user management in a university or institutional setting. This project was developed as part of a semester coursework and aims to demonstrate clean code principles, modular structure, and user-friendly design.
+
+The system allows administrators to manage departments, assign roles such as *HOD*, and maintain user records (students, staff, and admins) with basic persistence. Ideal for learning **Java Swing**, **MVC pattern**, and **service-layer integration** with local storage.
+
+---
+
+## 🧰 Tech Stack
+
+| **Component** | **Details**                         |
+| ------------- | ----------------------------------- |
+| Language      | Java 17 (or higher)                 |
+| GUI Framework | Java Swing                          |
+| Architecture  | MVC Pattern with Service Layer      |
+| Persistence   | Plain-text file (`departments.txt`) |
+| Build Tool    | NetBeans (or manual `javac`)        |
+
+---
+
+## ✨ Features
+
+* ✅ **Add & Edit Departments** – Simple form and table interface.
+* 👥 **User Management** – Add students, staff, and admins with roles.
+* 🎓 **Assign Head of Department (HOD)** – Promotes staff to HOD with role update.
+* 📋 **View Data in Tables** – Sortable views for departments and users.
+* 💾 **Auto-Save on Exit** – Saves state automatically using a shutdown hook.
+* 🌱 **Preloaded Sample Data** – Comes with demo data for quick testing.
+
+---
+
+## 🖥️ Demo Video
+
+🎥 [Watch the walkthrough here]: https://drive.google.com/file/d/1Bft9kzxNuVAYItk9VDl9Mow9MXgxw_Jk/view?usp=drive_link
+Get a 5 minute overview of how the system works and what it offers.
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-handle/DeptUserManagement.git
+cd DeptUserManagement
+
+# Compile the source files
+javac -d out $(find src -name "*.java")
+
+# Run the application
+java -cp out gui.Main
+```
+
+> ✅ You can also open the project directly in **NetBeans** and run the `Main` class for a GUI-based experience.
+
+---
+
+## 📌 Notes
+
+* This project uses simple file-based storage for persistence. No external database is required.
+* It demonstrates beginner-friendly principles ideal for Java learners exploring desktop GUI applications.
+
+---
