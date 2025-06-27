@@ -1,0 +1,5 @@
+ID: 101, Name: Alice, Role: HOD, deptId: 101
+ID: 102, Name: Bob, Role: Student, deptId: 101
+ID: 103, Name: Charlie, Role: Student, deptId: 101
+ID: 201, Name: David, Role: HOD, deptId: 101
+ID: 202, Name: Eva, Role: Student, deptId: 101
