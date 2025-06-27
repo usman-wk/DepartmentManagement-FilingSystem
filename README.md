@@ -71,3 +71,6 @@ Each role has access only to the features relevant to their responsibilities, en
 - **IDE**: IntelliJ IDEA / NetBeans  
 - **Architecture**: Layered (MVC-style separation)
 
+## Video By Usman Waqar Khan
+https://drive.google.com/file/d/1Bft9kzxNuVAYItk9VDl9Mow9MXgxw_Jk/view?usp=drive_link
+
