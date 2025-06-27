@@ -1,0 +1,42 @@
+# Department & User Management System (Java Swing MVC)
+
+A lightweight desktop application to manage university departments, users (students, staff, admins) and HOD assignments.  
+Built as a semester project to demonstrate **clean MVC separation**, **Java Swing GUI**, and **simple persistence** to a flat-file.
+
+| **Tech Stack** | |
+|----------------|----------------------------------------------|
+| Language       | Java 17 (or later) |
+| GUI            | Swing |
+| Architecture   | MVC + Service layer |
+| Persistence    | Plain-text (`departments.txt`) |
+| Build Tool     | NetBeans project / javac |
+
+---
+
+## ✨ Key Features
+* **Create / edit departments** – name & HOD in an editable table.
+* **Add users** – students, staff, or admins; optional department assignment.
+* **Assign / update HOD** – promotes staff to *HOD* role automatically.
+* **View lists** – sortable tables for users and departments.
+* **Auto-save on exit** – shutdown hook writes changes to `departments.txt`.
+* **Seed data** – starter users/departments loaded at first run for a quick demo.
+
+---
+
+## 🖥️ Demo Video
+
+Watch a 90-second walkthrough on YouTube: **<https://youtu.be/ABCDE12345>**
+
+*(replace with your own upload link)*
+
+---
+
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/your-handle/DeptUserManagement.git
+cd DeptUserManagement
+# Compile
+javac -d out $(find src -name "*.java")
+# Run
+java  -cp out  gui.Main
